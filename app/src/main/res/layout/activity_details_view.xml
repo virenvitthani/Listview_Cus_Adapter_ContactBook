@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Details_ViewActivity">
+
+    <ImageView
+        android:id="@+id/Details_imgarr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/two"/>
+
+    <TextView
+        android:id="@+id/Details_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacts Book"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#DA0323"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/Details_txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacts Book"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#FFC107"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/Details_txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacts Book"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#050502"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>
